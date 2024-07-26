@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 3rem 5vw;
 }
 .logo a {
-    color: white;
+    color: rgb(255, 250, 230);
     text-decoration: none;
 }
 .menu {
@@ -16,7 +15,7 @@
     text-decoration: none;
 }
 .menu a {
-    color: white;
+    color: rgb(255, 250, 230);
     font-weight: 600;
     text-decoration: none;
 }

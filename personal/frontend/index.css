@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #070F2B;
-  color: rgb(238, 255, 88);
+  color: rgb(255, 250, 230);
   overflow-y: scroll
 }
 .content {
@@ -19,5 +19,5 @@ body {
   justify-content: center;
   max-width: 1000px;
   margin: auto;
-  height: 750px;
+  height: 800px;
 }

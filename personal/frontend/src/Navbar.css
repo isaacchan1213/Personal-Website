@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 3rem 5vw;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+}
+.menu a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.menu-socials {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+}
+.menu-socials img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}

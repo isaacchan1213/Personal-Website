@@ -1,0 +1,37 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  height: 750px;
+  margin: 0 auto 2rem;
+}
+.cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  gap: 15px;
+}
+.text-wrapper h1, p {
+  text-align: left;
+}
+.text-wrapper p {
+  font-size: 20px;
+}
+.isaac-pfp {
+  width: 450px;
+  height: 450px;
+}
+.isaac-pfp img {
+  width: 450px;
+  height: 450px;
+  border-radius: 30%;
+  object-fit: cover;
+  top: 50px;
+}

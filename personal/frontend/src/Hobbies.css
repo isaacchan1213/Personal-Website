@@ -1,0 +1,40 @@
+.main-content-hobbies {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    margin: 0 auto 2rem;
+  }
+.title-hobbies {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 550px;
+  border: solid;
+  border-radius: 2%;
+}
+.sub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.text p {
+  color: rgb(255, 250, 230);
+}
+.image p {
+  font-size: 75px;
+}

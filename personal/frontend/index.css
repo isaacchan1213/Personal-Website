@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+section {
+  scroll-margin-top: 180px; 
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100vh;
   margin: 0;
@@ -16,8 +22,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   max-width: 1000px;
   margin: auto;
   height: 800px;
+}
+h1 {
+  font-size: 35px;
+}
+.hide-scrollbar {
+  overflow: auto; 
+}
+
+/* Webkit browsers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
 }

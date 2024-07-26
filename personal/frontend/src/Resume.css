@@ -1,0 +1,25 @@
+.main-content-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    margin: 0 auto 2rem;
+}
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 600px;
+}
+.text-resume p {
+    font-size: 50px;
+    text-align: center;
+}
+.button-resume button {
+    transform: scale(1.8);
+}
+.button-resume a {
+    text-decoration: none;
+    color: black
+}

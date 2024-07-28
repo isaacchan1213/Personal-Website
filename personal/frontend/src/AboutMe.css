@@ -27,12 +27,12 @@
 }
 @keyframes growShrink {
     0% {
-      transform: scale(1); /* Start at original size */
+      transform: scale(1); 
     }
     50% {
-      transform: scale(1.15); /* Grow to 1.5 times the size */
+      transform: scale(1.2); 
     }
     100% {
-      transform: scale(1); /* Shrink back to original size */
+      transform: scale(1); 
     }
   }

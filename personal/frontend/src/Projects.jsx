@@ -33,6 +33,7 @@ const Projects = () => {
                         <p>Personal Website</p>
                     </div>
                     <div className='hover-content'>
+                        <p>Coded this for a fellowship from scratch, no template, for 16 hours straight.</p>
                         <p>You're looking at it now!</p>
                     </div>
                 </div>

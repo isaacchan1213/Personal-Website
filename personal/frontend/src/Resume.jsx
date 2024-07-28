@@ -8,10 +8,10 @@ const Resume = () => {
             <div className='resume-content'>
                 <div className='text-resume'>
                     <p>Interested?</p>
-                    <p>Download my resume below.</p>
+                    <p>Check out my resume below.</p>
                 </div>
                 <div className='button-resume'>
-                    <button><a href={IsaacResume} download='Isaac Chan CS Resume.pdf'>Resume</a></button>
+                    <button><a href='https://drive.google.com/file/d/1BX9SbmxdHkfJselcpQOZNSiejJJ1ayeM/view?usp=sharing' download='Isaac Chan CS Resume.pdf'>Resume</a></button>
                 </div>
             </div>
         </div>

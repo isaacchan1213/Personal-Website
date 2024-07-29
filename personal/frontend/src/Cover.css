@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   max-width: 1000px;
   height: 700px;
   margin: 0 auto 2rem;
@@ -32,6 +33,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%
 }
 .text-wrapper {
   display: flex;
@@ -57,4 +59,26 @@
   border-color: rgb(255, 250, 230);
   object-fit: cover;
   top: 50px;
+}
+
+@media screen and (max-width: 850px) {
+  .main-content {
+    width: 100%;
+    max-width: 400px;
+  }
+  .cover {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%
+  }
+  .isaac-pfp {
+    width: 300px;
+    height: 300px;
+  }
+  .isaac-pfp img {
+    width: 100%;
+    height: 300px;
+  }
 }

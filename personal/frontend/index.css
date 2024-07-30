@@ -5,3 +5,7 @@
 h1 {
   @apply text-h1 font-bolder;
 }
+
+section {
+  scroll-margin-top: 200px; 
+}

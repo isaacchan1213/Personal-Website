@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
-import './ContactMe.css'
 
 const ContactMe = () => {
   const form = useRef();
@@ -66,19 +65,20 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="main-content-contact">
+    <div className="max-w-[400px] md:max-w-[800px] h-[700px] m-auto p-[20px] rounded-[8px]">
       {isSuccess && (
         <div className="ui message success">Message sent successfully</div>
       )}
 
       {!isSuccess && (
-        <form ref={form} onSubmit={handleSubmit}>
-          <h1>Contact Me</h1>
+        <form className="flex flex-col w-full" ref={form} onSubmit={handleSubmit}>
+          <h1 className="text-center">Contact Me</h1>
           <div className="ui-divider"></div>
           <div className="ui-form">
-            <div className="field">
-              <label>Name</label>
+            <div className="mb-[15px]">
+              <label className="block mb-[5px]">Name</label>
               <input
+                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px]"
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
@@ -87,9 +87,10 @@ const ContactMe = () => {
               />
               <p className="error">{formErrors.user_name}</p>
             </div>
-            <div className="field">
-              <label>Email</label>
+            <div className="mb-[15px]">
+              <label className="block mb-[5px]">Email</label>
               <input
+                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px]"
                 type="email"
                 name="user_email"
                 placeholder="Your Email"
@@ -98,9 +99,10 @@ const ContactMe = () => {
               />
               <p className="error">{formErrors.user_email}</p>
             </div>
-            <div className="field">
-              <label>Message</label>
+            <div className="mb-[15px]">
+              <label className="block mb-[5px]">Message</label>
               <textarea
+                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px]"
                 name="message"
                 placeholder="Your Message"
                 value={formValues.message}
@@ -108,7 +110,7 @@ const ContactMe = () => {
               />
               <p className="error">{formErrors.message}</p>
             </div>
-            <button className="submit" type="submit">Send</button>
+            <button className="bg-moonYellow text-darkBlue border-none p-[10px] py-[5px] rounded-[4px] cursor-pointer text-[16px] hover:border-solid border hover:animate-blink-shadow-button" type="submit">Send</button>
           </div>
         </form>
       )}

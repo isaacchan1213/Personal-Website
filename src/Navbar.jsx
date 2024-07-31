@@ -9,7 +9,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
     
     return (
-        <nav className="sticky top-0 flex justify-between items-center p-[3rem] bg-darkBlue z-[1000]">
+        <nav className="p-[2rem] sm:sticky top-0 flex justify-between items-center sm:p-[3rem] bg-darkBlue z-[1000]">
             <div className='flex justify-between w-full md:w-auto'>
                 <div className='logo'>
                     <a className="text-[20px] font-medium text-moonYellow text-nowrap" href="#home"><h2>Isaac Chan</h2></a>

@@ -6,4 +6,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  base: "https://isaacchan.dev"
 });

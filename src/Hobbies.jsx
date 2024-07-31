@@ -6,7 +6,7 @@ const Hobbies = () => {
             <div className='mb-[20px]'>
                 <h1>Hobbies</h1>
             </div>
-            <div className='max-w-[350px] flex-col sm:max-w-[450px] md:flex-row md:max-w-[800px] h-[600px] mb-[200px] flex justify-around m-auto border-[3px] border-solid rounded-[2%] border-moonYellow items-center'>
+            <div className='max-w-[350px] flex-col sm:max-w-[450px] md:flex-row md:max-w-[800px] h-[600px] mb-[350px] flex justify-around m-auto border-[3px] border-solid rounded-[2%] border-moonYellow items-center'>
                 <div className='flex flex-col gap-[2px] items-center'>
                     <div className='text-[75px]'>
                         <p>🏋🏻</p>

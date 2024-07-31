@@ -22,7 +22,7 @@ const Skills = () => {
             <div className='title'>
                 <h1>Skills</h1>
             </div>
-            <div className='max-w-[350px] sm:max-w-[430px] md:max-w-[800px] h-[700px] flex flex-col m-auto gap-[20px] h-[750px]'>
+            <div className='max-w-[350px] mb-[350px] sm:max-w-[430px] md:max-w-[800px] flex flex-col m-auto gap-[20px] h-[750px]'>
                 <div className='flex flex-col items-center gap-[20px]'>
                     <div className='caption'>
                         <h2 className="text-[24px]">Programming Languages</h2>

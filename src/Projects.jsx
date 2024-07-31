@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <div className='mb-[300px] flex flex-col items-center gap-[10px] md:mb-[200px]'>
+        <div className='mb-[300px] flex flex-col items-center gap-[10px] md:mb-[350]'>
             <div className='title'>
                 <h1>Projects</h1>
             </div>

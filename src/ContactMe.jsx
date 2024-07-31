@@ -78,7 +78,7 @@ const ContactMe = () => {
             <div className="mb-[15px]">
               <label className="block mb-[5px]">Name</label>
               <input
-                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px]"
+                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px] text-black"
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
@@ -90,7 +90,7 @@ const ContactMe = () => {
             <div className="mb-[15px]">
               <label className="block mb-[5px]">Email</label>
               <input
-                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px]"
+                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px] text-black"
                 type="email"
                 name="user_email"
                 placeholder="Your Email"
@@ -102,7 +102,7 @@ const ContactMe = () => {
             <div className="mb-[15px]">
               <label className="block mb-[5px]">Message</label>
               <textarea
-                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px]"
+                className="w-full p-[8px] border-[1px] border-solid border-moonYellow bg-moonYellow rounded-[4px] text-black"
                 name="message"
                 placeholder="Your Message"
                 value={formValues.message}

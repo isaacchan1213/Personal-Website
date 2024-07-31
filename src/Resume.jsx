@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => {
     return (
-        <div className='mb-[250px] items-center md:flex flex-col md:items-center md:mb-[400px]'>
+        <div className='items-center md:flex flex-col md:items-center'>
             <div className='max-w-[450px] m-auto md:max-w-[600px] flex flex-col items-center gap-[50px]'>
                 <div className='text-[30px] md:text-[50px] text-center'>
                     <p>Interested?</p>

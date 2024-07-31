@@ -14,27 +14,29 @@ function App() {
   return (
     <React.StrictMode>
       <Navbar />
-      <section id="home">
-        <Cover />
-      </section>
-      <section id="about-me">
-        <AboutMe />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="hobbies">
-        <Hobbies />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="resume">
-        <Resume />
-      </section>
-      <section id="contact">
-        <ContactMe />
-      </section>
+      <div className="gap-[300px] flex flex-col md:gap-[500px]">
+        <section id="home">
+          <Cover />
+        </section>
+        <section id="about-me">
+          <AboutMe />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="hobbies">
+          <Hobbies />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="resume">
+          <Resume />
+        </section>
+        <section id="contact">
+          <ContactMe />
+        </section>
+      </div>
     </React.StrictMode>
   )
 }

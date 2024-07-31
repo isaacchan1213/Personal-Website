@@ -20,9 +20,10 @@ export default {
         'md': '900px',
       },
       animation: {
-        'blink-shadow': 'blink-shadow 1s infinite',
+        'blink-shadow': 'blink-shadow 3s infinite',
         'blink-shadow-button': 'blink-shadow-button 1s infinite',
-        'grow-shrink': 'grow-shrink 1s ease-in-out infinite'
+        'grow-shrink': 'grow-shrink 1s ease-in-out infinite',
+        'up-down': 'up-down 3s ease-in-out infinite'
       },
       keyframes: {
         'blink-shadow': {
@@ -38,6 +39,10 @@ export default {
           '0%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.2)' },
           '100%': { transform: 'scale(1)' },
+        },
+        'up-down': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
         }
       },
       borderColor: {

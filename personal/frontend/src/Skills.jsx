@@ -1,5 +1,4 @@
 import React from 'react';
-import './Skills.css'
 import JavaIcon from './assets/java-isaac.png'
 import PythonIcon from './assets/python-isaac.svg'
 import SwiftIcon from './assets/swift-isaac.png'
@@ -15,56 +14,89 @@ import VSCodeIcon from './assets/vscode-isaac.png'
 import SpyderIcon from './assets/spyder-isaac.png'
 import AnacondaIcon from './assets/anaconda-isaac.png'
 import NodeJSIcon from './assets/nodejs-isaac.svg'
+import TailwindIcon from './assets/tailwind-isaac.png'
 
 const Skills = () => {
     return (
-        <div className='main-content-skills'>
+        <div className='flex flex-col items-center'>
             <div className='title'>
                 <h1>Skills</h1>
             </div>
-            <div className='skill-wrapper'>
-                <div className='card-skill'>
+            <div className='max-w-[350px] sm:max-w-[430px] md:max-w-[800px] h-[700px] flex flex-col m-auto'>
+                <div className='flex flex-col items-center gap-[20px]'>
                     <div className='caption'>
-                        <h2>Programming Languages</h2>
+                        <h2 className="text-[24px]">Programming Languages</h2>
                     </div>
-                    <div className='row'>
-                        <img src={JavaIcon}/>
-                        <img src={PythonIcon}/>
-                        <img src={SwiftIcon}/>
+                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
+                    <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                        <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={JavaIcon}/>
+                    </div>
+                    <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                        <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={PythonIcon}/>
+                    </div>
+                    <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                        <img className="w-[30px] h-[30px] scale-[0.78] md:w-[40px] md:h-[40px] md:scale-[0.78] object-cover" src={SwiftIcon}/>
+                    </div>
                     </div>
                 </div>
-                <div className='card-skill'>
+                <div className='flex flex-col items-center gap-[20px]'>
                     <div className='caption'>
-                        <h2>Web Technologies & Databases</h2>
+                        <h2 className="text-[24px]">Frameworks & Libraries</h2>
                     </div>
-                    <div className='row'>
-                        <img src={HtmlIcon}/>
-                        <img src={JSIcon}/>
-                        <img src={CSSIcon}/>
-                        <img src={JavaIcon}/>
-                        <img src={MYSqlIcon}/>
+                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={ReactIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[50px] h-[60px] scale-[0.6] md:w-[80px] md:h-[80px] md:scale-[0.6] object-cover" src={SvelteIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[50px] scale-[0.6] md:w-[50px] md:h-[70px] md:scale-[0.6] object-cover" src={FlaskIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={NodeJSIcon}/>
+                        </div>
                     </div>
                 </div>
-                <div className='card-skill'>
+                <div className='flex flex-col items-center gap-[20px]'>
                     <div className='caption'>
-                        <h2>Frameworks & Libraries</h2>
+                        <h2 className="text-[24px]">Developer Tools</h2>
                     </div>
-                    <div className='row'>
-                        <img src={ReactIcon}/>
-                        <img src={SvelteIcon}/>
-                        <img src={FlaskIcon}/>
-                        <img src={NodeJSIcon}/>
+                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">   
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={VSCodeIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={npm}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={SpyderIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={AnacondaIcon}/>
+                        </div>
                     </div>
                 </div>
-                <div className='card-skill'>
+                <div className='flex flex-col items-center gap-[20px]'>
                     <div className='caption'>
-                        <h2>Developer Tools</h2>
+                        <h2 className="text-[24px]">Web Technologies & Databases</h2>
                     </div>
-                    <div className='row'>
-                        <img src={VSCodeIcon}/>
-                        <img src={npm}/>
-                        <img src={SpyderIcon}/>
-                        <img src={AnacondaIcon}/>
+                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={HtmlIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={JSIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] scale-[0.78] object-cover" src={CSSIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[45px] h-[30px] scale-[0.8] md:w-[60px] md:h-[40px] object-cover md:scale-[0.8]" src={TailwindIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={MYSqlIcon}/>
+                        </div>
                     </div>
                 </div>
             </div>

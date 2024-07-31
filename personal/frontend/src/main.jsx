@@ -8,18 +8,12 @@ import Hobbies from './Hobbies.jsx'
 import Projects from './Projects.jsx'
 import Resume from './Resume.jsx'
 import ContactMe from './ContactMe.jsx'
-import useWindowSize from './useWindowSize.jsx'
 import '/index.css';
 
 function App() {
-  const componentRef = useRef()
-  const {width} = useWindowSize(componentRef);
-
   return (
     <React.StrictMode>
-      <div ref={componentRef}>
-        {width >= 850 && <Navbar />}
-      </div>
+      <Navbar />
       <section id="home">
         <Cover />
       </section>
@@ -27,27 +21,19 @@ function App() {
         <AboutMe />
       </section>
       <section id="skills">
-        <div className='content'>
-          <Skills />
-        </div>
+        <Skills />
       </section>
       <section id="hobbies">
-        <div className='content'>
-          <Hobbies />
-        </div>
+        <Hobbies />
       </section>
       <section id="projects">
-        <div className='content'>
-          <Projects />
-        </div>
+        <Projects />
       </section>
       <section id="resume">
         <Resume />
       </section>
       <section id="contact">
-        <div className='content'>
-          <ContactMe />
-        </div>
+        <ContactMe />
       </section>
     </React.StrictMode>
   )

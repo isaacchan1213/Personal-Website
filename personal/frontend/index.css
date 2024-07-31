@@ -1,39 +1,14 @@
-* {
-  font-family:sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-section {
-  scroll-margin-top: 180px; 
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   scroll-behavior: smooth;
-  height: 100%;
-}
-body {
-  margin: 0 auto;
-  background-color: #070F2B;
-  color: rgb(255, 250, 230);
-  overflow-y: scroll;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 1000px;
-  margin: auto;
-  height: 800px;
 }
 h1 {
-  font-size: 35px;
-}
-.hide-scrollbar {
-  overflow: auto; 
+  @apply text-h1 font-bolder;
 }
 
-/* Webkit browsers */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Hide scrollbar */
+section {
+  scroll-margin-top: 200px; 
 }

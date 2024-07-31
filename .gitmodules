@@ -1,3 +1,3 @@
 [submodule "dist"]
-    path = dist
-    url = https://github.com/isaacchan1213/isaacchan.github.io.git
+	path = dist
+	url = https://github.com/isaacchan1213/isaacchan.github.io.git

@@ -4,7 +4,7 @@ import isaacPfp from './assets/isaac-chan-pfp.jpg'
 function Cover() {
   return (
     <div className="items-center max-w-[400px] md:mt-[5rem] md:mb-[22rem] flex flex-col relative md:max-w-5xl m-auto">
-      <div className="mt-[4rem] flex flex-col-reverse gap-[20px] md:flex-row justify-between items-center">
+      <div className="flex flex-col-reverse gap-[20px] md:flex-row justify-between items-center">
         <h3 className="animate-up-down bottom-[8.5rem] left-[13.5rem] text-[20px] sm:bottom-[9.75rem] sm:left-[10.5rem] sm:text-[30px] md:top-[5.5rem] absolute md:left-[15rem] md:text-[50px] w-[70px]">🌙</h3>
         <div className='flex flex-col max-w-md gap-[15px] w-full items-center'>
           <h1 className="text-[30px] sm:text-left w-[350px] sm:w-[450px]">Hey, I'm <span className="animate-blink-shadow">Isaac.</span></h1>

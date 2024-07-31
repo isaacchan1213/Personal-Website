@@ -11,8 +11,6 @@ import ContactMe from './ContactMe.jsx'
 import '/index.css';
 
 function App() {
-  const componentRef = useRef()
-
   return (
     <React.StrictMode>
       <Navbar />

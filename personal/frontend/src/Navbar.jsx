@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className='logo'>
                     <a className="text-[20px] font-medium text-moonYellow text-nowrap" href="#home"><h2>Isaac Chan</h2></a>
                 </div>
-                <div className="md:hidden">
+                <div className="mt-[-9px] md:hidden">
                     <Hamburger toggled={isOpen} toggle={setIsOpen} color="#F5F5F5" />
                 </div>
             </div>

@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         darkBlue: "#070F2B", 
-        moonYellow: "rgb(255, 250, 230)"
+        moonYellow: "#FFFAE6"
       },
       fontSize: {
         'h1': '35px'

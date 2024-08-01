@@ -26,7 +26,7 @@ export default {
         'grow-shrink': 'grow-shrink 1s ease-in-out infinite',
         'up-down': 'up-down 3s ease-in-out infinite',
         'fade-down': 'fade-down 1s',
-        'fade-up': 'fade-up 1s'
+        'fade-up': 'fade-up 2s'
       },
       keyframes: {
         'blink-shadow': {

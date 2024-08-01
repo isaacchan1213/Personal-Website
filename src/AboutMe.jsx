@@ -16,7 +16,7 @@ const AboutMe = () => {
                 </p>
                 <p className='text-[18px] md:text-[20px]'>
                     Fast forward to now, and I've now had so many majors parts of my life revolve around this industry. Whether it be 
-                    having the privledge to land my first role as a software engineer in a ed-tech startup, fostering a community for 
+                    having the privilege to land my first role as a software engineer in an ed-tech startup, fostering a community for 
                     like-minded CS majors through a non-profit, or even deepening my software skills at a fellowship, these are all experiences
                     I truly love and cherish. 
                 </p>

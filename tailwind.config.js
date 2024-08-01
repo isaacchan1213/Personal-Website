@@ -24,7 +24,9 @@ export default {
         'blink-shadow': 'blink-shadow 3s infinite',
         'blink-shadow-button': 'blink-shadow-button 1s infinite',
         'grow-shrink': 'grow-shrink 1s ease-in-out infinite',
-        'up-down': 'up-down 3s ease-in-out infinite'
+        'up-down': 'up-down 3s ease-in-out infinite',
+        'fade-down': 'fade-down 1s',
+        'fade-up': 'fade-up 0.5s'
       },
       keyframes: {
         'blink-shadow': {
@@ -44,6 +46,14 @@ export default {
         'up-down': {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-20px)' },
+        },
+        'fade-down': {
+          '0%': {transform:'translateY(-30px)', scale:'0.9', opacity: '0'},
+          '100%': {transform:'translateY(0px)', scale:'1', opacity: '1'}
+        },
+        'fade-up': {
+          '0%': {transform:'translateY(30px)', scale:'0.9', opacity: '0'},
+          '100%': {transform:'translateY(0px)', scale:'1', opacity: '1'}
         }
       },
       borderColor: {

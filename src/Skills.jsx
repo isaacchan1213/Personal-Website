@@ -19,11 +19,11 @@ import TailwindIcon from './assets/tailwind-isaac.png'
 const Skills = () => {
     return (
         <div className='max-w-[350px] m-auto md:max-w-[600px] lg:max-w-[800px]'>
-            <div className='w-full flex flex-col items-center'>
+            <div className='w-full flex flex-col items-center gap-[5px]'>
                 <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                     <h1>Skills</h1>
                 </div>
-                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                <div className='flex flex-col gap-[8.5px] w-[100%] items-center'>
                     <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                         <h2 className="text-[24px]">Programming Languages</h2>
                     </div>
@@ -39,7 +39,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                <div className='flex flex-col gap-[8.5px] w-[100%] items-center'>
                     <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                         <h2 className="text-[24px]">Frameworks & Libraries</h2>
                     </div>
@@ -58,7 +58,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                <div className='flex flex-col gap-[8.5px] w-[100%] items-center'>
                         <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                             <h2 className="text-[24px]">Developer Tools</h2>
                         </div>
@@ -77,7 +77,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                <div className='flex flex-col gap-[8.5px] w-[100%] items-center'>
                     <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                         <h2 className="text-[24px]">Web Technologies & Databases</h2>
                     </div>

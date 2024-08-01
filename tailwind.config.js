@@ -18,6 +18,7 @@ export default {
       },
       screens: {
         'md': '900px',
+        'xs': '350px',
       },
       animation: {
         'blink-shadow': 'blink-shadow 3s infinite',

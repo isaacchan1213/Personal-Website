@@ -27,16 +27,16 @@ const Navbar = () => {
                     <li><a className="text-moonYellow font-semibold hover:underline" href="#resume">Resume</a></li>
                     <li><a className="text-moonYellow font-semibold hover:underline" href="#contact">Contact</a></li>
                     <ul className="md:hidden">
-                        <li><a href="https://github.com/isaacchan1213"><img className="w-[30px] h-[30px] rounded-[30%] inline text-moonYellow font-semibold hover:underline mr-[5px] mb-[5px]" src={GithubIcon} alt="GitHub"/>GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/isaacchan1213/"><img className="w-[30px] h-[30px] rounded-[30%] inline text-moonYellow font-semibold hover:underline mr-[5px] mb-[5px]" src={LinkedinIcon} alt="LinkedIn"/>LinkedIn</a></li>
-                        <li><a href="https://www.instagram.com/isaacchn_"><img className="w-[30px] h-[30px] rounded-[30%] inline text-moonYellow font-semibold hover:underline mr-[5px] mb-[5px]" src={InstagramIcon} alt="Instagram"/>Instagram</a></li>
+                        <li><a href="https://github.com/isaacchan1213" target="_blank" rel="noreferrer noopener"><img className="w-[30px] h-[30px] rounded-[30%] inline text-moonYellow font-semibold hover:underline mr-[5px] mb-[5px]" src={GithubIcon} alt="GitHub"/>GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/isaacchan1213/" target="_blank" rel="noreferrer noopener"><img className="w-[30px] h-[30px] rounded-[30%] inline text-moonYellow font-semibold hover:underline mr-[5px] mb-[5px]" src={LinkedinIcon} alt="LinkedIn"/>LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/isaacchn_" target="_blank" rel="noreferrer noopener"><img className="w-[30px] h-[30px] rounded-[30%] inline text-moonYellow font-semibold hover:underline mr-[5px] mb-[5px]" src={InstagramIcon} alt="Instagram"/>Instagram</a></li>
                     </ul>
                 </ul>
             </div>
             <ul className="hidden md:flex list-none gap-[10px]">
-                    <li><a href="https://github.com/isaacchan1213"><img className="w-[35px] h-[30px] rounded-[30%]" src={GithubIcon} alt="GitHub"/></a></li>
-                    <li><a href="https://www.linkedin.com/in/isaacchan1213/"><img className="w-[35px] h-[30px] rounded-[30%]" src={LinkedinIcon} alt="LinkedIn"/></a></li>
-                    <li><a href="https://www.instagram.com/isaacchn_"><img className="w-[35px] h-[30px] rounded-[30%]" src={InstagramIcon} alt="Instagram"/></a></li>
+                    <li><a href="https://github.com/isaacchan1213" target="_blank" rel="noreferrer noopener"><img className="w-[35px] h-[30px] rounded-[30%]" src={GithubIcon} alt="GitHub"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/isaacchan1213/" target="_blank" rel="noreferrer noopener"><img className="w-[35px] h-[30px] rounded-[30%]" src={LinkedinIcon} alt="LinkedIn"/></a></li>
+                    <li><a href="https://www.instagram.com/isaacchn_" target="_blank" rel="noreferrer noopener"><img className="w-[35px] h-[30px] rounded-[30%]" src={InstagramIcon} alt="Instagram"/></a></li>
             </ul>
         </nav>
     );

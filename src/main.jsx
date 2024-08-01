@@ -14,7 +14,7 @@ function App() {
   return (
     <React.StrictMode>
       <Navbar />
-      <div className="gap-[300px] flex flex-col md:gap-[500px]">
+      <div className="gap-[185px] flex flex-col md:gap-[250px]">
         <section id="home">
           <Cover />
         </section>

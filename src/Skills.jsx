@@ -18,32 +18,32 @@ import TailwindIcon from './assets/tailwind-isaac.png'
 
 const Skills = () => {
     return (
-        <div className='flex flex-col items-center'>
-            <div className='title'>
-                <h1>Skills</h1>
-            </div>
-            <div className='max-w-[350px] sm:max-w-[430px] md:max-w-[800px] flex flex-col m-auto gap-[20px]'>
-                <div className='flex flex-col items-center gap-[20px]'>
-                    <div className='caption'>
+        <div className='max-w-[350px] m-auto md:max-w-[600px] lg:max-w-[800px]'>
+            <div className='w-full flex flex-col items-center'>
+                <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
+                    <h1>Skills</h1>
+                </div>
+                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                    <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                         <h2 className="text-[24px]">Programming Languages</h2>
                     </div>
-                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
-                    <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                        <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={JavaIcon}/>
-                    </div>
-                    <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                        <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={PythonIcon}/>
-                    </div>
-                    <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                        <img className="w-[30px] h-[30px] scale-[0.78] md:w-[40px] md:h-[40px] md:scale-[0.78] object-cover" src={SwiftIcon}/>
-                    </div>
+                    <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px] flex gap-[20px]'>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={JavaIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={PythonIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[30px] h-[30px] scale-[0.78] md:w-[40px] md:h-[40px] md:scale-[0.78] object-cover" src={SwiftIcon}/>
+                        </div>
                     </div>
                 </div>
-                <div className='flex flex-col items-center gap-[20px]'>
-                    <div className='caption'>
+                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                    <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                         <h2 className="text-[24px]">Frameworks & Libraries</h2>
                     </div>
-                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
+                    <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px] flex gap-[20px]'>
                         <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
                             <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={ReactIcon}/>
                         </div>
@@ -58,31 +58,31 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col items-center gap-[20px]'>
-                    <div className='caption'>
-                        <h2 className="text-[24px]">Developer Tools</h2>
+                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                        <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
+                            <h2 className="text-[24px]">Developer Tools</h2>
+                        </div>
+                        <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px] flex gap-[20px]'>
+                            <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">   
+                                <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={VSCodeIcon}/>
+                            </div>
+                            <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                                <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={npm}/>
+                            </div>
+                            <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                                <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={SpyderIcon}/>
+                            </div>
+                            <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                                <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={AnacondaIcon}/>
+                            </div>
+                        </div>
                     </div>
-                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
-                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">   
-                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={VSCodeIcon}/>
-                        </div>
-                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={npm}/>
-                        </div>
-                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={SpyderIcon}/>
-                        </div>
-                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={AnacondaIcon}/>
-                        </div>
-                    </div>
-                </div>
-                <div className='flex flex-col items-center gap-[20px]'>
-                    <div className='caption'>
+                <div className='flex flex-col gap-[20px] w-[100%] items-center'>
+                    <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px]'>
                         <h2 className="text-[24px]">Web Technologies & Databases</h2>
                     </div>
-                    <div className='w-[100%] flex flex-row justify-center gap-[25px]'>
-                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                    <div className='w-[100%] sm:w-[350px] md:w-[350px] lg:w-[500px] flex gap-[20px]'>
+                        <div className="w-[50px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
                             <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={HtmlIcon}/>
                         </div>
                         <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">

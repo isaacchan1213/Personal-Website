@@ -24,7 +24,7 @@ const Projects = () => {
                             <p>Korean Quiz Simulator</p>
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
-                            <p>Always was nervous for my Korean quizzes in class, so decided to make a simulator...</p>
+                            <p>Simple yet effective terminal based simulator that takes in a vocab list and then simulates a quiz through text to speech.</p>
                             <p>Click me for the GitHub link!</p>
                         </div>
                     </a>
@@ -37,7 +37,7 @@ const Projects = () => {
                             <p>Personal Website</p>
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
-                            <p>Coded this for a fellowship from scratch, no template, for 16 hours straight.</p>
+                            <p>Made with love.</p>
                             <p>You're looking at it now!</p>
                         </div>
                     </a>

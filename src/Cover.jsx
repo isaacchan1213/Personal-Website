@@ -3,7 +3,7 @@ import isaacPfp from './assets/isaac-chan-pfp.jpg'
 
 function Cover() {
   return (
-    <div className="flex flex-col relative items-center max-w-[400px] md:mt-[2rem] mb-[2rem] md:max-w-5xl m-auto lg:mb-[20px] lg:mt-[4rem] animate-fade-up">
+    <div className="flex flex-col relative items-center max-w-[400px] md:mt-[2rem] mb-[3rem] md:max-w-5xl m-auto lg:mb-[20px] lg:mt-[3.5rem] xl:mt-[4rem] animate-fade-up">
       <div className="flex flex-col-reverse gap-[20px] md:flex-row justify-between items-center">
         <h3 className="animate-up-down bottom-[9.5rem] left-[13.5rem] text-[20px] sm:bottom-[11.5rem] sm:left-[14rem] sm:text-[30px] md:top-[3.5rem] md:left-[17.5rem] lg:top-[5.5rem] absolute lg:left-[15rem] lg:text-[50px] w-[70px]">🌙</h3>
         <div className='flex flex-col max-w-md gap-[15px] w-full items-center'>

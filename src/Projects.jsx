@@ -8,7 +8,7 @@ const Projects = () => {
             </div>
             <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/isaacchan1213/MapEmissions">
+                    <a href="https://github.com/isaacchan1213/MapEmissions" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Map Emission</p>
                         </div>
@@ -19,7 +19,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/isaacchan1213/Korean-Quiz-Simulator">
+                    <a href="https://github.com/isaacchan1213/Korean-Quiz-Simulator" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Korean Quiz Simulator</p>
                         </div>
@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
             <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/isaacchan1213/Personal-Website">
+                    <a href="https://github.com/isaacchan1213/Personal-Website" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Personal Website</p>
                         </div>

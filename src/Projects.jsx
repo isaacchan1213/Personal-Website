@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrowIcon from './assets/arrow-icon.svg'
 
 const Projects = () => {
     return (
@@ -11,6 +12,7 @@ const Projects = () => {
                     <a href="https://github.com/isaacchan1213/MapEmissions" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Map Emission</p>
+                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
                             <p>Tracks the amount of carbon emission given a trip.</p>
@@ -22,6 +24,7 @@ const Projects = () => {
                     <a href="https://github.com/isaacchan1213/Korean-Quiz-Simulator" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Korean Quiz Simulator</p>
+                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
                             <p>Simple yet effective terminal based simulator that takes in a vocab list and then simulates a quiz through text to speech.</p>
@@ -35,6 +38,7 @@ const Projects = () => {
                     <a href="https://github.com/isaacchan1213/Personal-Website" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Personal Website</p>
+                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
                             <p>Made with love.</p>
@@ -45,6 +49,7 @@ const Projects = () => {
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
                     <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                         <p>TBD...</p>
+                        <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
                     </div>
                     <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
                         <p>TBD...</p>

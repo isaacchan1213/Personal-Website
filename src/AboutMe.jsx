@@ -14,11 +14,10 @@ const AboutMe = () => {
                     I have grown to love about this field.
                 </p>
                 <p className='text-[18px] md:text-[20px]'>
-                    Fast forwarding to today, I continously immerse myself within this ever growing environment. Whether that be through
-                    my internship as a Software Engineer at an ed-tech startup, my vital role as VP of Community at a nonprofit
-                    dedicated in helping CS majors integrate into the tech industry, or even deepening my software engineering skills as a Fellow, 
-                    these are all experiences I truly love and cherish. I am committed to pursing similar opportunities in the future, 
-                    and have no itention on ever looking back.
+                    Fast forwarding to today, I continously immerse myself within this ever growing environment. With prior experience as
+                    a Software Engineering intern at an ed-tech startup, the VP of Community at a CS focused nonprofit, and a fellow
+                    at a Software and AI program, I am always looking for ways that can help propel my passion for all things tech. 
+                    I look forward to whatever work awaits for me in the future and am confident that no matter what that may be, I will succeed. 
                 </p>
             </div>
         </div>

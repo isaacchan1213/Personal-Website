@@ -31,7 +31,7 @@ const Hobbies = () => {
                     </div>
                     <div className='flex flex-col items-center gap-[2px] text-moonYellow'>
                         <h2>Fashion</h2>
-                        <p>For life.</p>
+                        <p>Thrifting on top.</p>
                     </div>
                 </div>
             </div>

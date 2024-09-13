@@ -9,6 +9,18 @@ const Projects = () => {
             </div>
             <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
+                    <a href="https://mindfulmeals.vercel.app/" target="_blank" rel="noreferrer noopener">
+                        <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
+                            <p>Mindful Meals</p>
+                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
+                        </div>
+                        <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
+                            <p>Monitors and provides AI driven estimates of your daily calories and protein based on your meals.</p>
+                            <p>Click me for the website!</p>
+                        </div>
+                    </a>
+                </div>
+                <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
                     <a href="https://github.com/isaacchan1213/MapEmissions" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Map Emission</p>
@@ -16,6 +28,20 @@ const Projects = () => {
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
                             <p>Tracks the amount of carbon emission given a trip.</p>
+                            <p>Click me for the GitHub link!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
+                <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
+                    <a href="https://github.com/isaacchan1213/Personal-Website" target="_blank" rel="noreferrer noopener">
+                        <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
+                            <p>Personal Website</p>
+                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
+                        </div>
+                        <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
+                            <p>You're looking at it now!</p>
                             <p>Click me for the GitHub link!</p>
                         </div>
                     </a>
@@ -31,29 +57,6 @@ const Projects = () => {
                             <p>Click me for the GitHub link!</p>
                         </div>
                     </a>
-                </div>
-            </div>
-            <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
-                <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/isaacchan1213/Personal-Website" target="_blank" rel="noreferrer noopener">
-                        <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
-                            <p>Personal Website</p>
-                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
-                        </div>
-                        <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
-                            <p>Made with love.</p>
-                            <p>You're looking at it now!</p>
-                        </div>
-                    </a>
-                </div>
-                <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
-                        <p>TBD...</p>
-                        <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
-                    </div>
-                    <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
-                        <p>TBD...</p>
-                    </div>
                 </div>
             </div>
         </div>

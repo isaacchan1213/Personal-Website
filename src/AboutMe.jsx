@@ -8,7 +8,7 @@ const AboutMe = () => {
             </div>
             <div className='w-[100%] flex flex-col gap-[15px] content-start'>
                 <p className='text-[18px] md:text-[20px]'>
-                    Hello! My name is Isaac and I'm a rising sophomore at Boston University majoring in Computer Science with a minor in Data Science.
+                    Hello! My name is Isaac and I'm a sophomore at Boston University majoring in Computer Science with a minor in Data Science.
                     I started my love for all things tech ever since high school after reluctantly deciding to sign up for my very 
                     first CS class. Though challenging at the time, it introduced to me the importance of problem solving and critical thinking, two things in which 
                     I have grown to love about this field.

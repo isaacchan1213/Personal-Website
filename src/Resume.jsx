@@ -9,7 +9,7 @@ const Resume = () => {
                     <p>Check out my resume below.</p>
                 </div>
                 <div className='button'>
-                    <button className="bg-moonYellow text-darkBlue border-none p-[10px] py-[5px] rounded-[4px] cursor-pointer text-[16px] transform scale-[1.8] hover:border-solid border hover:animate-blink-shadow-button"><a className="no-underline text-black" href='https://drive.google.com/file/d/1hWXCOlN7FW0cUA683SCHgpARr6czXxR3/view?usp=sharing' target="_blank" rel="noreferrer noopener">Resume</a></button>
+                    <button className="bg-moonYellow text-darkBlue border-none p-[10px] py-[5px] rounded-[4px] cursor-pointer text-[16px] transform scale-[1.8] hover:border-solid border hover:animate-blink-shadow-button"><a className="no-underline text-black" href='https://drive.google.com/file/d/1Y5Wh52dPha79d67SYJPd5TcmTddCzOAr/view?usp=sharing' target="_blank" rel="noreferrer noopener">Resume</a></button>
                 </div>
             </div>
         </div>

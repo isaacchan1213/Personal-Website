@@ -30,7 +30,7 @@ const ContactMe = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_ID
       ).then(
         () => {
           setIsSuccess(true);
@@ -38,8 +38,8 @@ const ContactMe = () => {
           setIsSubmit(false); // Reset isSubmit
         },
         (error) => {
-          console.log('FAILED...', error.text);
-          setIsSuccess(false); // In case of failure, set isSuccess to false
+          console.error('EmailJS failed...', error); // Log more detailed error
+          setIsSuccess(false);
         }
       );
     }

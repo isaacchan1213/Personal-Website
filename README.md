@@ -1,6 +1,6 @@
 # Personal Website
 
-Welcome to my personal website, [isaacchan.dev](https://isaacchan.dev)! This project was built using React.js and to moreover become more familiar with Tailwind CSS. 
+Welcome to my personal website, [isaacchan.dev](https://isaacchan.dev)! This project was built using React.js and primarily made in an effort to become more familiar with Tailwind CSS. 
 
 ## Tech Stack
 

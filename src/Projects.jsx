@@ -9,6 +9,18 @@ const Projects = () => {
             </div>
             <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
+                    <a href="https://devpost.com/software/ez-pt?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank" rel="noreferrer noopener">
+                        <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
+                            <p>EZ-PT</p>
+                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
+                        </div>
+                        <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
+                            <p>A self-guided physical therapy web application that utilizes computer vision and machine learning.</p>
+                            <p>Click me for the DevPost link!</p>
+                        </div>
+                    </a>
+                </div>
+                <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
                     <a href="https://mindfulmeals.vercel.app/" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Mindful Meals</p>
@@ -20,6 +32,8 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
+            </div>
+            <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
                     <a href="https://github.com/isaacchan1213/MapEmissions" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
@@ -32,28 +46,14 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
-            </div>
-            <div className='max-w-[380px] flex-col md:max-w-[800px] m-auto flex md:flex-row gap-[10px] justify-center'>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/isaacchan1213/Personal-Website" target="_blank" rel="noreferrer noopener">
-                        <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
-                            <p>Personal Website</p>
-                            <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
-                        </div>
-                        <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
-                            <p>You're looking at it now!</p>
-                            <p>Click me for the GitHub link!</p>
-                        </div>
-                    </a>
-                </div>
-                <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/isaacchan1213/Korean-Quiz-Simulator" target="_blank" rel="noreferrer noopener">
+                    <a href="https://github.com/owenm-26/Easy-PT" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Korean Quiz Simulator</p>
                             <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
                         </div>
                         <div className='absolute inset-0 z-20 bg-orange text-white opacity-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center text-center justify-center gap-1 hover:opacity-100'>
-                            <p>Simple yet effective terminal based simulator that takes in a vocab list and then simulates a quiz through text to speech.</p>
+                            <p>Simple yet effective terminal based simulator that takes in a vocab list and quizzes you with text to speech.</p>
                             <p>Click me for the GitHub link!</p>
                         </div>
                     </a>

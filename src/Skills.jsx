@@ -5,12 +5,14 @@ import SwiftIcon from './assets/swift-isaac.png'
 import HtmlIcon from './assets/html-isaac.png'
 import CSSIcon from './assets/css-isaac.png'
 import JSIcon from './assets/js-isaac.png'
-import MYSqlIcon from './assets/mysql-isaac.svg'
+import FirebaseIcon from './assets/firebase-isaac.svg'
+import NextjsIcon from './assets/nextjs-isaac.svg'
 import ReactIcon from './assets/react-isaac.png'
 import SvelteIcon from './assets/svelte-isaac.png'
 import npm from './assets/npm-isaac.png'
 import FlaskIcon from './assets/flask-isaac.png'
 import VSCodeIcon from './assets/vscode-isaac.png'
+import VercelIcon from './assets/vercel-isaac.svg'
 import SpyderIcon from './assets/spyder-isaac.png'
 import AnacondaIcon from './assets/anaconda-isaac.png'
 import NodeJSIcon from './assets/nodejs-isaac.svg'
@@ -48,6 +50,9 @@ const Skills = () => {
                             <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={ReactIcon}/>
                         </div>
                         <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={NextjsIcon}/>
+                        </div>
+                        <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
                             <img className="w-[50px] h-[60px] scale-[0.6] md:w-[80px] md:h-[80px] md:scale-[0.6] object-cover" src={SvelteIcon}/>
                         </div>
                         <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
@@ -68,6 +73,9 @@ const Skills = () => {
                             </div>
                             <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
                                 <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={npm}/>
+                            </div>
+                            <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
+                                <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={VercelIcon}/>
                             </div>
                             <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
                                 <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={SpyderIcon}/>
@@ -95,7 +103,7 @@ const Skills = () => {
                             <img className="w-[45px] h-[30px] scale-[0.8] md:w-[60px] md:h-[40px] object-cover md:scale-[0.8]" src={TailwindIcon}/>
                         </div>
                         <div className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] bg-moonYellow rounded-[10%] object-cover  border-borderGray flex flex-row justify-center items-center">
-                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={MYSqlIcon}/>
+                            <img className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover" src={FirebaseIcon}/>
                         </div>
                     </div>
                 </div>

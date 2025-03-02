@@ -47,7 +47,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div className='w-[350px] relative md:w-[450px] h-[250px] border border-moonYellow'>
-                    <a href="https://github.com/owenm-26/Easy-PT" target="_blank" rel="noreferrer noopener">
+                    <a href="https://github.com/isaacchan1213/Korean-Quiz-Simulator" target="_blank" rel="noreferrer noopener">
                         <div className='relative w-full h-full z-[1] flex items-center justify-center text-[20px] text-moonYellow'>
                             <p>Korean Quiz Simulator</p>
                             <img className="absolute bottom-2 right-2 w-[20px] h-[20px]" src={ArrowIcon}></img>
